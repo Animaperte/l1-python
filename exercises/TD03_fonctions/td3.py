@@ -109,3 +109,17 @@ def proportionTemps(temps, proportion):
 
 
 afficheTemps(proportionTemps((2, 0, 36, 0), 0.2))
+
+
+def tempsEnDate(temps):
+    pass
+
+
+def afficheDate(date=-1):
+    pass
+
+
+temps = secondeEnTemps(1000000000)
+afficheTemps(temps)
+afficheDate(tempsEnDate(temps))
+afficheDate()
